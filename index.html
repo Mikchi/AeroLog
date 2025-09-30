@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AeroLog - Weather</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+
+
+  </head>
+  <body>
+    <script src="script.js"></script>
+    
+    <nav class = "navWeather">
+      <img class = "backButton" src="weatherPageAssets\backButton.svg">
+    </nav>
+    <section class="generalInfo">
+        <h1 id = "location">
+          Hacienda Heights, CA
+        </h1>
+        <p class="aqiTitle">
+          AQI Value
+        </p>
+        <div class="aqiSection">
+          <h2 id="aqiNum">
+            46.6
+          </h2>
+          <img class="cloudBg" src="weatherPageAssets\cloudBackground.svg">
+        </div>
+        <h1 id = "aqiRating">
+          GOOD
+        </h1>
+        <h2 id = "aqiRisk">
+          LOW RISK
+        </h2>
+    </section>
+
+    <section class="details"> 
+    <div class="humidity">
+      <img class="detailBg" src="weatherPageAssets\detailsBG.svg">
+        <div class="humidityDetails">
+          <img class="humidityIcon" src="weatherPageAssets\humidityIcon.svg">
+          <div class="humidityText">
+            <h2 class="humidityTitle">
+              HUMIDITY
+            </h2>
+            <p id="humidityDescription">
+              Humidity is moderate. This range is optimal for asthma.
+            </p>
+          </div>
+          <h1 id="humidityNum">
+            %
+          </h1>
+        </div>
+    </div>
+
+
+
+    <div class="wind">
+      <img class="detailBg" src="weatherPageAssets\detailsBG.svg">
+        <div class="windDetails">
+          <img class="windIcon" src="weatherPageAssets\windIcon.svg">
+          <div class="windText">
+            <h2 class="windTitle">
+              WIND
+            </h2>
+            <p id="windDescription">
+              Wind is light. Breathing conditions are generally stable.
+            </p>
+          </div>
+          <h1 id="windNum">
+            mph
+          </h1>
+        </div>
+    </div>
+
+
+    <div class="temperature">
+      <img class="detailBg" src="weatherPageAssets\detailsBG.svg">
+        <div class="tempDetails">
+          <img class="tempIcon" src="weatherPageAssets\tempIcon.svg">
+          <div class="tempText">
+            <h2 class="tempTitle">
+              TEMPERATURE
+            </h2>
+            <p id="tempDescription">
+              Temperature is comfortable and unlikely to affect asthma.
+            </p>
+          </div>
+          <h1 id="tempNum">
+            68°F
+          </h1>
+        </div>
+    </div>
+
+    </section>
+
+
+
+
+  </body>
+</html>
